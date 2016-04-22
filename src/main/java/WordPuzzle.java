@@ -24,7 +24,6 @@ public class WordPuzzle {
       String output = newWordPuzzle.replaceVowel(userInput);
       model.put("output", output);
 
-      // NEEDS TO LINK RESULTS PAGE!^^^^^
 
       return new ModelAndView(model, layout);
     }, new VelocityTemplateEngine());

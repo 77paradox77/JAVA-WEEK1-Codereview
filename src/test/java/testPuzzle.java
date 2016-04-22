@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class testPuzzle extends FluentTest{ // needs to change "BlankTest" according of how you named it on your BlankTest.java file//
+public class testPuzzle extends FluentTest{ 
   public WebDriver webDriver = new HtmlUnitDriver();
 
   @Override
