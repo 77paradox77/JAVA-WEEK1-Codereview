@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testPuzzle" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-04-22T20:36:52" hostname="epicodus-60.local" time="0.036">
+  <properties/>
+  <testcase name="replaceVowel_replacesVowelIwithDash_vowelsToDashes" classname="testPuzzle" time="0.005"/>
+  <testcase name="replaceVowel_replacesVowelEwithDash_vowelsToDashes" classname="testPuzzle" time="0.0"/>
+  <testcase name="replaceVowel_replacesVowelAwithDash_vowelsToDashes" classname="testPuzzle" time="0.0"/>
+  <testcase name="replaceVowel_replacesVowelawithDash_vowelsToDashes" classname="testPuzzle" time="0.001"/>
+  <testcase name="replaceVowel_replacesVowelUwithDash_vowelsToDashes" classname="testPuzzle" time="0.001"/>
+  <testcase name="replaceVowel_replacesVowelOwithDash_vowelsToDashes" classname="testPuzzle" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
