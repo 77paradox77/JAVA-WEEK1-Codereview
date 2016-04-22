@@ -21,20 +21,18 @@ public class AppTest extends FluentTest {
       assertThat(pageSource()).contains("This program was created in Java for the Week1 Epicodus Java Challenge");
   }
   @Test
-  public void replaceVowel() {
+  public void outPut() {
     goTo("http://localhost:4567/");
     fill("#userInput").with("Puzzling Words");
     submit(".btn");
     assertThat(pageSource()).contains("P-zzl-ng W-rds");
   }
 
-  // @Test
-  // public void replaceVowel() {
-  //   goTo("http://localhost:4567/");
-  //   fill("#userInput").with("Puzzling Words");
-  //   submit(".btn");
-  //   assertThat(pageSource()).contains("P-zzl-ng W-rds");
-  // }
+  @Test
+  public void layOut() {
+    goTo("http://localhost:4567/");
+    assertThat(pageSource()).contains("Word Puzzle");
+  }
 
 
 }
