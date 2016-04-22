@@ -12,7 +12,7 @@ _{This is a program that will take a users input and replace it with a string wh
 
 * To use this program, git Clone this link: (https://github.com/77paradox77/JAVA-WEEK1-codeReview.git). Onto your desktop. Once files are in place use Terminal, spark and gradle to run it on your local host.
 
-*  If you do not have Git Bash installed you may use the following link to view page as well: 77paradox77.github.io/JAVA-WEEK1-codeReview
+*  If you do not have Git Bash installed you may use the following link to view page as well: 77paradox77.github.io/JAVA-WEEK1-codeReview (however, depending if the site is being "run" it may not show up.)
 
 ## Known Bugs
 
