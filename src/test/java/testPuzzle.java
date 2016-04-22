@@ -32,22 +32,26 @@ public class testPuzzle extends FluentTest{ // needs to change "BlankTest" accor
     public void replaceVowel_replacesVowelEwithDash_vowelsToDashes() {
       WordPuzzle replaceAllVowels = new WordPuzzle();
       assertEquals("-", replaceAllVowels.replaceVowel("E"));
+      assertEquals("-", replaceAllVowels.replaceVowel("e"));
     }
 
     @Test
       public void replaceVowel_replacesVowelIwithDash_vowelsToDashes() {
         WordPuzzle replaceAllVowels = new WordPuzzle();
         assertEquals("-", replaceAllVowels.replaceVowel("I"));
+        assertEquals("-", replaceAllVowels.replaceVowel("i"));
       }
 
     @Test
         public void replaceVowel_replacesVowelOwithDash_vowelsToDashes() {
           WordPuzzle replaceAllVowels = new WordPuzzle();
           assertEquals("-", replaceAllVowels.replaceVowel("O"));
+            assertEquals("-", replaceAllVowels.replaceVowel("o"));
         }
     @Test
       public void replaceVowel_replacesVowelUwithDash_vowelsToDashes() {
         WordPuzzle replaceAllVowels = new WordPuzzle();
         assertEquals("-", replaceAllVowels.replaceVowel("U"));
+        assertEquals("-", replaceAllVowels.replaceVowel("u"));
       }
  }

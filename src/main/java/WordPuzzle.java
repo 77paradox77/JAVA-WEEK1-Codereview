@@ -7,7 +7,7 @@ import static spark.Spark.*;
 public class WordPuzzle {
   public static void main(String[] args) {
     String layout = "templates/layout.vtl";
-    staticFileLocation("/public");
+    // staticFileLocation("/public");
 
     get("/", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
@@ -17,10 +17,11 @@ public class WordPuzzle {
 
     get("/output", (request, response) -> {
       Map<String, Object> model = new HashMap<String, Object>();
-      model.put("template", "templates/puzzle.vtl");
+      model.put("template", "templates/output.vtl");
       String userInput = request.queryParams("userInput");
-      String puzzle = replaceVowel(userInput);
-      model.put("output", "templates/output.vtl");
+      WordPuzzle newWordPuzzle = new WordPuzzle();
+      String output = newWordPuzzle.replaceVowel(userInput);
+      model.put("output", output);
 
       // NEEDS TO LINK RESULTS PAGE!^^^^^
 
